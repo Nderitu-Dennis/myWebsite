@@ -1,0 +1,22 @@
+.links{
+  height: 50px;
+  background-color: azure;
+  padding-left: 20px;
+  
+}
+
+a:hover{
+				
+  text-decoration: overline;
+  color: orange;
+  padding-right:10px;
+  width:150px;
+}
+a:active{
+  color:green;
+  text-decoration: none;
+
+}	
+.storey:hover,.class:hover,.roof:hover,.cart:hover,.solar:hover,.gate:hover,.hse:hover{
+  transform:scale(1.5)
+}

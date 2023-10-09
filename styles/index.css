@@ -1,0 +1,33 @@
+.header-text{
+  background: darkorange;
+  
+  font-kerning: 50px;
+  font-family: algerian;  
+  font-size: 30px;  
+  font-weight: bold;
+ width: 70%;
+ padding-left: 200px;
+ margin-left: 100px;
+ 
+  
+}
+
+.links a:hover{
+				
+  text-decoration: overline;
+  color: orange;
+  padding-right:10px;
+  width:150px;
+}
+.links a:active{
+  color:green;
+  text-decoration: none;
+
+}	
+
+.links{
+  height: 50px;
+  background-color: azure;
+  padding-left: 20px;
+  
+}

@@ -1,3 +1,10 @@
+body{
+  margin-left: 100px;
+  margin-right: 200px;
+  min-width: 400px;
+  font-size: larger;
+}
+
 .links{
   height: 50px;
   background-color: azure;
@@ -18,5 +25,16 @@ a:active{
 
 }	
 .storey:hover,.class:hover,.roof:hover,.cart:hover,.solar:hover,.gate:hover,.hse:hover{
-  transform:scale(1.5)
+  transform:scale(1.25)
 }
+
+.footer{
+  background-color:greenyellow;
+  height: 40px;
+  bottom: 60px;
+  position: fixed;
+  width: 70%;
+  padding-top: 20px;
+}
+
+

@@ -16,17 +16,28 @@
 
 	<div class="form">
 
-		<form name="enquiryform">
+		<form name="enquiryform" method="post" action="">
 			<p>
 			<b>If you want to know more about any of our services or products,please fill in the form below:</b></p>
 			<p>
 				<fieldset>
 					<legend>Fill in your details here</legend>
-					First Name&ensp;<input type="textbox" name="fName" size="20" required />&emsp;
-					Last Name&ensp;<input type="textbox" name="lName" size="20" required/><br><br>
-					Surname(Optional)&ensp;<input type="textbox" name="sName" size="16"><br><br>
-					Phone No.&ensp;<input type="textbox" name="phone" size=20  minlength="10" required/>&emsp;
-					E-mail address&ensp;<input type="email" name="email" size="30" required/><br><br>
+					<label for="firstname">
+						First Name<input type="textbox" name="firstname"id="firstname" size="20" required />
+					</label>
+					<label for="lastname">
+						Last Name<input type="textbox" name="lastname" id="lastname" size="20" required/>
+					</label>
+					<label for="surname">
+						Surname(Optional)<input type="textbox" name="surname" id="surname" size="16">
+					</label>
+					<label for="phone-number">
+						Phone Number<input type="textbox" name="phone-number" id="phone-number"  minlength="10" required/>
+					</label>					
+					<label for="email">
+						E-mail address<input type="email" name="email" id="email" required/>
+					</label>			
+					
 
 				</fieldset>
 			
@@ -36,7 +47,7 @@
 	
 				<p>
 					Where are you located?
-				<select>
+				<select name="region"	id="region">
 	
 					<option value="nrb">Nairobi</option>
 					<option value="rv">RiftValley</option>
@@ -56,10 +67,17 @@
 					
 				</textarea>
 	
-				<input type="submit" name="submit" value="submit form">
+				<input type="submit" name="submit" value="SUBMIT">
 	
 			</form>
 
+	</div>
+
+	<div class="footer">
+		<footer>
+			&copy A Mazindere Oluoch production
+		</footer>
+		
 	</div>
 	
 

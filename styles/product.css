@@ -5,6 +5,7 @@ body{
   font-size: large; 
   padding-top: 140px;
   font-family: arial;
+  padding-bottom: 150px;
 }
 
 .links{  
@@ -28,19 +29,26 @@ a:active{
   text-decoration: none;
 
 }	
-.storey:hover,.class:hover,.roof:hover,.cart:hover,.solar:hover,.gate:hover,.hse:hover{
-  transform:scale(1.25)
+.storey:hover,.class:hover,.roof:hover,.solar:hover,.gate:hover,.hse:hover{
+  transform: scale(1.1);
+  
 }
-
-.storey,.class,.roof,.cart,.solar,.gate,.hse{
-  object-fit: fill;
+.storey,.class,.roof,.hse{
+  width: 100%;
+  object-fit:cover;
+  height: 100%;
+  border: 1px solid gray;
   
 }
 
 
+
 .product-images{
-  height: 400px;
-  border: 1px solid red;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr; 
+ row-gap: 10px;
+ column-gap: 5px;
+ margin-bottom: 110px;
 
 }
 .footer{
@@ -63,7 +71,7 @@ a:active{
   border-bottom-color: rgb(192,192,192);
   z-index: 100;   
   min-width: 700px;
-  width: 75%;
+  width: 77.3%;
     
   
   }

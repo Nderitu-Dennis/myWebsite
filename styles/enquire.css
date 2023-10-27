@@ -26,9 +26,6 @@ body{
   min-width: 700px;
  width: 63.5%;
   
-
-  
-  
  
 }
 .links{
@@ -93,9 +90,12 @@ input[type="submit"]:hover{
 input,select,textarea{
   font: 1em sans-serif;
   background-color: aliceblue;
-  color:chocolate;
-  
+  color:chocolate;  
 
+}
+
+input{
+  margin-left: 5px;
 }
   
   

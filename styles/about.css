@@ -2,17 +2,34 @@ body{
   margin-left: 150px;
   margin-right: 300px;
   min-width: 500px;
-  font-size: large;
+  font-size: larger;
+  padding-bottom: 400px;
+  padding-top: 120px;
 }
 
 .links{
   height: 50px;
   background-color: azure;
   padding-left: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+.big-head{
+
+  top:0;  
+  border-bottom:1px solid red;  
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: rgb(192,192,192);
+  position: fixed;
+  width: 72%;
  
   
+ 
 }
-
 .links a:hover{
 				
   text-decoration: overline;
@@ -44,12 +61,14 @@ footer{
   background-color:greenyellow;
   height: 40px;
   bottom: 60px;
-  position: fixed;
-  width: 70%;
+  position: relative;
+  width: 100%;
   padding-top: 20px;
+  top:10px;
+  bottom: 0px;
 }
 
-.span-twitter:hover{
+.span-mail:hover ,.span-twitter:hover{
   color: red;
   cursor: pointer;
 }

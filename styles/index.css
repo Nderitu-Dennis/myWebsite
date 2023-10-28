@@ -1,12 +1,12 @@
 body{
   margin-left: 100px;
   margin-right: 300px;
-  min-width: 400px;  
+  min-width: 400px; 
+  max-width: 1200px; 
   font-size: large;  
   font-family: arial;
   padding-bottom: 150px;
-  padding-top: 140px;
-  max-width: 1200px;
+  padding-top: 140px;  
  
  
   }
@@ -34,6 +34,7 @@ body{
  display: flex;
  position: relative;
  min-width: 400px;
+ max-width: 1200px;
  justify-content: center; 
  margin-left: 100px;
   
@@ -50,8 +51,9 @@ border-bottom-width: 4px;
 border-bottom-color: rgb(192,192,192);
 z-index: 100;   
 min-width: 400px;
-width: 77.3%;
 max-width: 1200px;
+width: 77.3%;
+
   
 
 }

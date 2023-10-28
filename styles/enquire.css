@@ -1,6 +1,9 @@
 form{
   background-color: gainsboro;
   padding-bottom: 10px; 
+  min-width: 700px;
+  max-width: 1000px;
+  
   
   
 }
@@ -25,6 +28,7 @@ body{
   border-bottom-color: rgb(192,192,192);
   z-index: 100;   
   min-width: 700px;
+  max-width: 1000px;
  width: 57%;
   
  

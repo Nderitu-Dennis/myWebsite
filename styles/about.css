@@ -1,7 +1,8 @@
 body{
   margin-left: 150px;
   margin-right: 300px;
-  min-width: 500px;
+  min-width: 400px;
+  max-width: 1000px;
   font-size: large;
   padding-bottom: 400px;
   padding-top: 120px;
@@ -29,6 +30,8 @@ body{
   border-bottom-color: rgb(192,192,192);
   position: fixed;
   width: 72%;
+  min-width: 400px;
+  max-width: 1000px;
  
   
  

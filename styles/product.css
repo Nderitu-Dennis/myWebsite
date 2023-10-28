@@ -2,6 +2,7 @@ body{
   margin-left: 100px;
   margin-right: 300px;
   min-width: 400px;
+  max-width: 1200px;
   font-size: large; 
   padding-top: 140px;
   font-family: arial;
@@ -70,7 +71,8 @@ a:active{
   border-bottom-width: 4px;
   border-bottom-color: rgb(192,192,192);
   z-index: 100;   
-  min-width: 700px;
+  min-width: 400px;
+  max-width: 1200px;
   width: 77.3%;
     
   

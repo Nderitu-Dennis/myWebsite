@@ -6,7 +6,8 @@ body{
   font-size: large;  
   font-family: arial;
   padding-bottom: 150px;
-  padding-top: 140px;  
+  padding-top: 140px; 
+  background-color: red; 
  
  
   }

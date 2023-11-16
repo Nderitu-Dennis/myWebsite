@@ -32,6 +32,7 @@ body{
   width: 72%;
   min-width: 400px;
   max-width: 1000px;
+  z-index: 100; /* making the footer and body slide beneath the header */
  
   
  
@@ -49,7 +50,6 @@ body{
   text-decoration: none;
 
 }
-
 				
 .twit{
   background-color: skyblue;
@@ -73,6 +73,7 @@ footer{
   top:10px;
   bottom: 0px;
   margin-top: 50px;
+  
 }
 
 .span-mail:hover ,.span-twitter:hover{

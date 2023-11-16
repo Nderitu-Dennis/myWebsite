@@ -29,7 +29,7 @@ body{
   z-index: 100;   
   min-width: 700px;
   max-width: 1000px;
- width: 57%;
+ width: 67%;
   
  
 }
@@ -61,6 +61,7 @@ a:active{
   text-decoration: none;
 
 }	
+
 fieldset{
  
   border: 1px solid red;

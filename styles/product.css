@@ -30,6 +30,7 @@ a:active{
   text-decoration: none;
 
 }	
+
 .storey:hover,.class:hover,.roof:hover,.solar:hover,.gate:hover,.hse:hover{
   transform: scale(1.1);
   

@@ -29,7 +29,7 @@ body{
   background: darkorange;  
   font-kerning: 50px;
   font-family: algerian;  
-  font-size: 30px;  
+  font-size: 29px;  
   font-weight: bold;
  width: 70%;
  display: flex;
@@ -71,6 +71,9 @@ width: 77.3%;
   text-decoration: none;
 
 }	
+a{
+  text-decoration: none;
+}
 
 .home{
   font-size: larger;

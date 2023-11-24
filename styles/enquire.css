@@ -65,14 +65,15 @@ a{
   text-decoration: none;
 }
 
-fieldset{
- 
+fieldset{ 
   border: 1px solid red;
   margin-bottom: 30px;
   margin-left: 10px;
-  margin-right:10px;
-                
+  margin-right:10px;                
   
+}
+textarea{
+  resize: none;
 }
 
 

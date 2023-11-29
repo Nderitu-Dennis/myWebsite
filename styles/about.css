@@ -1,8 +1,7 @@
 body{
   margin-left: 150px;
   margin-right: 300px;
-  min-width: 400px;
-  max-width: 1000px;
+  width: 70%; 
   font-size: large;
   padding-bottom: 400px;
   padding-top: 120px;

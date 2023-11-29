@@ -10,8 +10,7 @@ form{
 body{
   margin-left: 150px;
   margin-right: 300px;
-  min-width: 700px;
-  max-width: 1000px;
+  width: 70%; 
   font-size: large;
   padding-bottom: 50px;
   padding-top: 120px;

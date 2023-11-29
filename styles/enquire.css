@@ -1,20 +1,19 @@
 form{
   background-color: gainsboro;
   padding-bottom: 10px; 
-  min-width: 700px;
-  max-width: 1000px;
-  
+  width: 100%;
   
   
 }
 body{
   margin-left: 150px;
   margin-right: 300px;
-  width: 90%; 
+  margin-bottom: 20px;  
   font-size: large;
   padding-bottom: 50px;
   padding-top: 120px;
   font-family: arial;
+  width: 75%;
  
 }
 .big-head{
@@ -26,14 +25,8 @@ body{
   border-bottom-width: 4px;
   border-bottom-color: rgb(192,192,192);
   z-index: 100;   
-  min-width: 700px;
-  max-width: 1000px;
- width: 67%;
+ width: 75%;
  font-size: large;
- 
-
- 
-
   
  
 }
@@ -44,6 +37,7 @@ body{
   position: relative;
   display: flex;
   align-items: center;
+  font-size: large;
 
 }
 .header{
@@ -70,14 +64,17 @@ a{
 }
 
 fieldset{ 
-  border: 1px solid red;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right:10px;                
+  border: 4px solid palevioletred;
+  margin-bottom: 4px;
+  margin-left: 9px;
+  margin-right:5px;
+   
+                 
   
 }
 textarea{
   resize: none;
+  width: 100%;
 }
 
 
@@ -122,6 +119,8 @@ input{
   padding-top: 20px;
   margin-top: 85px;
 }
+
+
  
  
 

@@ -1,7 +1,7 @@
-body{
-  margin-left: 100px;
+body{ 
+  margin-left: 150px;
   margin-right: 300px;
-  width: 90%; 
+  width: 75%; 
   font-size: large; 
   padding-top: 140px;
   font-family: arial;
@@ -15,6 +15,7 @@ body{
   position: relative;
   display: flex;
   align-items: center;
+  font-size: large;
 }
 
 a:hover{
@@ -73,10 +74,8 @@ a{
   border-bottom-style: solid;
   border-bottom-width: 4px;
   border-bottom-color: rgb(192,192,192);
-  z-index: 100;   
-  min-width: 400px;
-  max-width: 1200px;
-  width: 77.3%;
+  z-index: 100;  
+  width: 75%;
   font-size: large;
     
   

@@ -1,13 +1,12 @@
 body{
-  margin-left: 100px;
+ 
+  margin-left: 150px;
   margin-right: 300px;
-  width: 70%;  
+  width: 75%;  
   font-size: large;  
   font-family: arial;
   padding-bottom: 150px;
-  padding-top: 140px; 
-  
- 
+  padding-top: 140px;  
  
   }
   
@@ -30,11 +29,9 @@ body{
   font-family: algerian;  
   font-size: 29px;  
   font-weight: bold;
- width: 90%;
+ width: 75%;
  display: flex;
  position: relative;
- min-width: 400px;
- max-width: 1700px;
  justify-content: center; 
  margin-left: 100px;
   
@@ -49,10 +46,8 @@ top:0px;
 border-bottom-style: solid;
 border-bottom-width: 4px;
 border-bottom-color: rgb(192,192,192);
-z-index: 100;   
-min-width: 400px;
-max-width: 1200px;
-width: 77.3%;
+z-index: 100; 
+width: 75%;
 font-size: large;
 
   
@@ -88,6 +83,7 @@ a{
   position: relative;
   display: flex;
   align-items: center;
+  font-size: large;
   
 }
 .footer{

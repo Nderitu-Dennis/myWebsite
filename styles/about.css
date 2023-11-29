@@ -1,7 +1,7 @@
 body{
   margin-left: 150px;
   margin-right: 300px;
-  width: 90%; 
+  width: 75%; 
   font-size: large;
   padding-bottom: 400px;
   padding-top: 120px;
@@ -17,6 +17,7 @@ body{
   position: relative;
   display: flex;
   align-items: center;
+  font-size: large;
 
 }
 .big-head{
@@ -28,9 +29,7 @@ body{
   border-bottom-width: 4px;
   border-bottom-color: rgb(192,192,192);
   position: fixed;
-  width: 72%;
-  min-width: 400px;
-  max-width: 1000px;
+  width: 75%; 
   z-index: 100; /* making the footer and body slide beneath the header */
   font-size: large;
  

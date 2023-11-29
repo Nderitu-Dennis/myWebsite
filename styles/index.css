@@ -30,7 +30,7 @@ body{
   font-family: algerian;  
   font-size: 29px;  
   font-weight: bold;
- width: 70%;
+ width: 90%;
  display: flex;
  position: relative;
  min-width: 400px;
@@ -53,6 +53,7 @@ z-index: 100;
 min-width: 400px;
 max-width: 1200px;
 width: 77.3%;
+font-size: large;
 
   
 

@@ -10,7 +10,7 @@ form{
 body{
   margin-left: 150px;
   margin-right: 300px;
-  width: 70%; 
+  width: 90%; 
   font-size: large;
   padding-bottom: 50px;
   padding-top: 120px;
@@ -29,6 +29,11 @@ body{
   min-width: 700px;
   max-width: 1000px;
  width: 67%;
+ font-size: large;
+ 
+
+ 
+
   
  
 }

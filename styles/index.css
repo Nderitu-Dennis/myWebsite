@@ -1,5 +1,5 @@
-body{
- 
+
+body {
   margin-left: 150px;
   margin-right: 300px;
   width: 75%;  
@@ -7,74 +7,67 @@ body{
   font-family: arial;
   padding-bottom: 150px;
   padding-top: 140px;  
- 
-  }
-  
-.cover-image{
- width: 100%;
- height: 100%;
- object-fit: fill;
- 
 }
-.div-image{
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.div-image {
   box-sizing: border-box;
   border: 1px solid pink;
   height: 200px;
- 
 }
 
-.header-text{
+.header-text {
   background: darkorange;  
   font-kerning: 50px;
   font-family: algerian;  
   font-size: 29px;  
   font-weight: bold;
- width: 75%;
- display: flex;
- position: relative;
- justify-content: center; 
- margin-left: 100px;
-  
+  width: 75%;
+  display: flex;
+  position: relative;
+  justify-content: center; 
+  margin-left: 100px;
 }
 
-.big-head{
-  
-margin-bottom: 50px;
-background-color:white;
-position: fixed;
-top:0px;
-border-bottom-style: solid;
-border-bottom-width: 4px;
-border-bottom-color: rgb(192,192,192);
-z-index: 100; 
-width: 75%;
-font-size: large;
-
-  
-
+.big-head {
+  margin-bottom: 50px;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: rgb(192, 192, 192);
+  z-index: 100; 
+  width: 75%;
+  font-size: large;
 }
 
-.links a:hover{
-				
+.links a:hover {
   text-decoration: overline;
   color: orange;
-  padding-right:10px;
-  width:150px;
+  padding-right: 10px;
+  width: 150px;
 }
-.links a:active{
-  color:green;
-  text-decoration: none;
 
-}	
-a{
+.links a:active {
+  color: green;
   text-decoration: none;
 }
 
-.home{
+a {
+  text-decoration: none;
+}
+
+.home {
   font-size: larger;
 }
 
-.links{
+.links {
   height: 50px;
   background-color: azure;
   height: 50px;
@@ -84,10 +77,10 @@ a{
   display: flex;
   align-items: center;
   font-size: large;
-  
 }
-.footer{
-  background-color:greenyellow;
+
+.footer {
+  background-color: greenyellow;
   height: 40px;
   bottom: 0;
   position: relative;
@@ -95,6 +88,37 @@ a{
   padding-top: 20px;
   margin-top: 100px;
 }
-.span-here:hover{
+
+.span-here:hover {
   color: red;
 }
+
+/* Media query for smaller screens */
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-left: 20px; /* Adjust left margin */
+    margin-right: 20px; /* Adjust right margin */
+    width: auto; /* Allow content to occupy full width */
+    font-size: larger; /* Set a smaller font size */
+    padding-bottom: 50px; /* Reduce bottom padding */
+    padding-top: 100px; /* Reduce top padding */
+  }
+
+  .header-text {
+    font-size: 20px; /* Adjust header text font size */
+    margin-left: 20px; /* Adjust header text margin */
+    width: auto; /* Allow header text to occupy full width */
+  }
+
+  .big-head {
+    font-size: medium; /* Adjust font size */
+    width: auto; /* Allow content to occupy full width */
+  }
+
+  .links {
+    font-size: medium; /* Adjust font size */
+    padding-left: 10px; /* Adjust padding */
+  }
+}
+

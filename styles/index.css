@@ -106,18 +106,18 @@ a {
   }
 
   .header-text {
-    font-size: 20px; /* Adjust header text font size */
+    font-size: 24px; /* Adjust header text font size */
     margin-left: 20px; /* Adjust header text margin */
     width: auto; /* Allow header text to occupy full width */
   }
 
   .big-head {
-    font-size: medium; /* Adjust font size */
+    font-size: larger; /* Adjust font size */
     width: auto; /* Allow content to occupy full width */
   }
 
   .links {
-    font-size: medium; /* Adjust font size */
+    font-size: larger; /* Adjust font size */
     padding-left: 10px; /* Adjust padding */
   }
 }

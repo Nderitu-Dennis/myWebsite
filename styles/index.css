@@ -93,32 +93,5 @@ a {
   color: red;
 }
 
-/* Media query for smaller screens */
 
-@media screen and (max-width: 768px) {
-  body {
-    margin-left: 20px; /* Adjust left margin */
-    margin-right: 20px; /* Adjust right margin */
-    width: auto; /* Allow content to occupy full width */
-    font-size: larger; /* Set a smaller font size */
-    padding-bottom: 50px; /* Reduce bottom padding */
-    padding-top: 100px; /* Reduce top padding */
-  }
-
-  .header-text {
-    font-size: 24px; /* Adjust header text font size */
-    margin-left: 20px; /* Adjust header text margin */
-    width: auto; /* Allow header text to occupy full width */
-  }
-
-  .big-head {
-    font-size: larger; /* Adjust font size */
-    width: auto; /* Allow content to occupy full width */
-  }
-
-  .links {
-    font-size: larger; /* Adjust font size */
-    padding-left: 10px; /* Adjust padding */
-  }
-}
 
